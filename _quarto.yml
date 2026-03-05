@@ -4,15 +4,21 @@ project:
   render: 
     - index.qmd
     - Schedule.qmd
+    - ExistingResources.qmd
+    - PackageWalkthroughs.qmd
     - course/index.qmd
     - 00_*
     - 01_*
+    - 02_*
+    - 03_*
+    - 04_*
+    - 05_*
 website:
   google-analytics: "G-LZ35J3XE4D"
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "Course starts week of February 1st. Workstation setup tutorials are now available. See Email for Details."
+    content: "See Course tab for Course Materials, see YouTube tab for livestream recordings"
     type: info
     position: below-navbar 
   page-navigation: true 
@@ -57,10 +63,17 @@ website:
       - text: "00 - Floreada"
         href: course/00_Floreada/index.qmd
     - section: "Intro to R"
-      href: course/01_InstallingRPackages/index.qmd
       contents:
       - text: "01 - Installing R Packages"
         href: course/01_InstallingRPackages/index.qmd
+      - text: "02 - File Paths"
+        href: course/02_FilePaths/index.qmd
+      - text: "03 - Inside a .FCS file"
+        href: course/03_InsideFCSFile/index.qmd
+      - text: "04 - Intro to Tidyverse"
+        href: course/04_IntroToTidyverse/index.qmd
+      - text: "05 - Gating Sets"
+        href: course/05_GatingSets/index.qmd    
     - section: "Cytometry Core"
       href: Schedule.qmd
     - section: "Beyond the Sandbox"
